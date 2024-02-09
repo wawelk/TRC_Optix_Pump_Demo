@@ -1,0 +1,54 @@
+Name: VariableTypes
+Type: FolderType
+Children:
+- Name: Pump_UDT
+  Id: g=3e555c8a289487cbf4436a2713edd1ff
+  Supertype: TagStructure
+  DataType: Pump_UDT
+  ValueRank: Any
+  Children:
+  - Name: Flow
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Flow"
+  - Name: Label
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Label"
+  - Name: Running
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Running"
+  - Name: Start
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Start"
+  - Name: Stop
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Stop"

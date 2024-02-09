@@ -1,0 +1,13 @@
+Name: Screens
+Type: ScreensCategoryFolder
+Children:
+- Name: Page
+  Id: g=06a0f8e30c011846bf845bf68132f118
+  Supertype: Screen
+  ReferenceType: HasComponent
+  Children:
+  - Name: TopMargin
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 0.0

@@ -1,0 +1,153 @@
+Name: Controller Tags
+Type: FolderType
+Children:
+- Name: pump1
+  Id: g=ec935b0bf82393dc0a1fb59184e1577d
+  Type: Pump_UDT
+  DataType: Pump_UDT
+  Children:
+  - Name: Flow
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "pump1.Flow"
+  - Name: Label
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "pump1.Label"
+  - Name: Running
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "pump1.Running"
+  - Name: Start
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "pump1.Start"
+  - Name: Stop
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "pump1.Stop"
+- Name: pump2
+  Id: g=315ca86ec1ba49a6ab3dcd4a7689ace3
+  Type: Pump_UDT
+  DataType: Pump_UDT
+  Children:
+  - Name: Flow
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "pump2.Flow"
+  - Name: Label
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "pump2.Label"
+  - Name: Running
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "pump2.Running"
+  - Name: Start
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "pump2.Start"
+  - Name: Stop
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "pump2.Stop"
+- Name: pump3
+  Id: g=a77f590871374904c22184affead4f71
+  Type: Pump_UDT
+  DataType: Pump_UDT
+  Children:
+  - Name: Flow
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "pump3.Flow"
+  - Name: Label
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "pump3.Label"
+  - Name: Running
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "pump3.Running"
+  - Name: Start
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "pump3.Start"
+  - Name: Stop
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "pump3.Stop"

@@ -1,0 +1,301 @@
+Name: DataStores
+Type: DataStoresCategoryFolder
+Children:
+- Name: EmbeddedDatabase1
+  Id: g=ce785159bbe8b4cf2a9319b0c74dc252
+  Type: SQLiteStore
+  Children:
+  - Name: Tables
+    Type: BaseObjectType
+    Children:
+    - Name: DataLogger1
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=11;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: Timestamp
+          Type: StoreColumn
+          DataType: UtcTime
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: LocalTimestamp
+          Type: StoreColumn
+          DataType: DateTime
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: Flow
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+  - Class: Reference
+    Target: ns=12;i=30
+    Direction: Forward
+  - Class: Reference
+    Target: ns=12;i=33
+    Direction: Forward
+  - Name: MaxColumnNameLength
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+    Value: 0
+  - Name: MaxColumnCount
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+    Value: 0
+  - Name: DataTypeCompatibilityMap
+    Type: BaseDataVariableType
+    DataType: NodeId
+    AccessLevel: Read
+    ValueRank: OneOrMoreDimensions
+    ArrayDimensions: [0,0]
+    Value: {"Type":12,"Dimensions":[0,0],"Body":[]}
+  - Name: Status
+    Type: PropertyType
+    DataType: StoreStatus
+    AccessLevel: Read
+    Value: 2
+  - Class: Reference
+    Target: ns=11;i=22
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=6
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=8
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=25
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=38
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=41
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=57
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=59
+    Direction: Forward
+  - Name: Filename
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+- Name: EmbeddedDatabase2
+  Id: g=f916cf04acb0bf48016d557b9865b323
+  Type: SQLiteStore
+  Children:
+  - Name: Tables
+    Type: BaseObjectType
+    Children:
+    - Name: DataLogger2
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=11;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: Timestamp
+          Type: StoreColumn
+          DataType: UtcTime
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: LocalTimestamp
+          Type: StoreColumn
+          DataType: DateTime
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: Flow
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+  - Class: Reference
+    Target: ns=12;i=30
+    Direction: Forward
+  - Class: Reference
+    Target: ns=12;i=33
+    Direction: Forward
+  - Name: MaxColumnNameLength
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+    Value: 0
+  - Name: MaxColumnCount
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+    Value: 0
+  - Name: DataTypeCompatibilityMap
+    Type: BaseDataVariableType
+    DataType: NodeId
+    AccessLevel: Read
+    ValueRank: OneOrMoreDimensions
+    ArrayDimensions: [0,0]
+    Value: {"Type":12,"Dimensions":[0,0],"Body":[]}
+  - Name: Status
+    Type: PropertyType
+    DataType: StoreStatus
+    AccessLevel: Read
+    Value: 2
+  - Class: Reference
+    Target: ns=11;i=22
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=6
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=8
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=25
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=38
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=41
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=57
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=59
+    Direction: Forward
+- Name: EmbeddedDatabase3
+  Id: g=b39282d314695052475d090d977c12be
+  Type: SQLiteStore
+  Children:
+  - Name: Tables
+    Type: BaseObjectType
+    Children:
+    - Name: DataLogger3
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=11;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: Timestamp
+          Type: StoreColumn
+          DataType: UtcTime
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: LocalTimestamp
+          Type: StoreColumn
+          DataType: DateTime
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: Flow
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+  - Class: Reference
+    Target: ns=12;i=30
+    Direction: Forward
+  - Class: Reference
+    Target: ns=12;i=33
+    Direction: Forward
+  - Name: MaxColumnNameLength
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+    Value: 0
+  - Name: MaxColumnCount
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+    Value: 0
+  - Name: DataTypeCompatibilityMap
+    Type: BaseDataVariableType
+    DataType: NodeId
+    AccessLevel: Read
+    ValueRank: OneOrMoreDimensions
+    ArrayDimensions: [0,0]
+    Value: {"Type":12,"Dimensions":[0,0],"Body":[]}
+  - Name: Status
+    Type: PropertyType
+    DataType: StoreStatus
+    AccessLevel: Read
+    Value: 2
+  - Class: Reference
+    Target: ns=11;i=22
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=6
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=8
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=25
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=38
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=41
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=57
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=59
+    Direction: Forward

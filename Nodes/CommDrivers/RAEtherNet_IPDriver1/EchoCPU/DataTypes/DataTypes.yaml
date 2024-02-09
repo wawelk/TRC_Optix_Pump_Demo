@@ -1,0 +1,49 @@
+Name: DataTypes
+Type: FolderType
+Children:
+- Class: DataType
+  Name: Pump_UDT
+  Id: g=3fb1eafa5379185e73a7248ad2546151
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "Pump_UDT",
+    "DataType": {
+     "IdType": 2,
+     "Id": "3fb1eafa5379185e73a7248ad2546151",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "Flow",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Label",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "Running",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Start",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Stop",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"Pump_UDT"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
