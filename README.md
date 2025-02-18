@@ -1,3 +1,5 @@
+Updated for FactoryTalk v1.5 release features.
+
 Demo project with the following features:
 
  - Reusable Graphics for a pump control widget/faceplate (MyWidgets --> PumpWidget) with an Alias to Pump_UDT
@@ -19,3 +21,8 @@ Demo project with the following features:
    - DataLogger3
    - EmbeddedDatabase3
 
+ - Alarms display with Alarm Summary widget showing Logix tag-based alarms
+
+ - Addition of a local MQTT Broker
+
+ - Addition of a MQTT Client that publishes Pump1, Pump2 and Pump3 topics to the local Optix MQTT broker
