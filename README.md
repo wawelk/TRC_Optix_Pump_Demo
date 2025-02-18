@@ -1,6 +1,6 @@
 Updated for FactoryTalk v1.5 release features.
 
-The FactoryTalk Optix demo application is designed to work with a ControlLogix L8 CPU.  The ControlLogix program can runon either a real controller or FactoryTalk Logix Echp.  The IP address of the controller in the Optix application is 127.0.0.1 for FT Logix Echo.  The Studio 5000 ACD v37 file can be downloaded from:
+The FactoryTalk Optix demo application is designed to work with a ControlLogix L8 CPU.  The ControlLogix program can run on a real controller (if available) or FactoryTalk Logix Echo v3.01 or higher.  The IP address of the controller in the Optix application is 127.0.0.1.  The Studio 5000 ACD v37 file can be downloaded from:
 https://www.mediafire.com/file_premium/l8sb3383bqb9ep4/TRC_Optix_Pump_Demp.ACD/file
 
 Demo project with the following features:
