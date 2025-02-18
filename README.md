@@ -6,17 +6,17 @@ Demo project with the following features:
 
  - Summary display with pump widgets tied to pump1, pump2, and pump 3 UDTs
 
- - Pump101 display
+ - Pump1 display
    - Historical trending of Pump 101 flow
    - DataLogger1
    - EmbeddedDatabase1
 
- - Pump201 display
+ - Pump2 display
    - Historical trending of Pump 201 flow
    - DataLogger2
    - EmbeddedDatabase2
 
- - Pump301 display
+ - Pump3 display
    - Historical trending of Pump 301 flow
    - DataLogger3
    - EmbeddedDatabase3
