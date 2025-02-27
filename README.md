@@ -29,3 +29,14 @@ Demo project with the following features:
  - Addition of a local MQTT Broker
 
  - Addition of a MQTT Client that publishes Pump1, Pump2 and Pump3 topics to the local Optix MQTT broker
+
+Cloning the repository
+There are multiple ways to download this project, here is the recommended one
+
+Clone repository
+ - Click on the green CODE button in the top right corner
+ - Select HTTPS and copy the provided URL
+ - Open FT Optix IDE
+ - Click on Open and select the Remote tab
+ - Paste the URL from step 2
+ - Click Open button in bottom right corner to start cloning process   
